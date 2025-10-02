@@ -3,18 +3,14 @@ import aboutImage from "@/assets/about-palms.jpg";
 const About = () => {
   return (
     <section className="py-20 relative overflow-hidden">
-      {/* Background text */}
-      <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
-        <h2 className="text-[8rem] md:text-[12rem] font-bold text-outline opacity-40 select-none whitespace-nowrap">
-          ABOUT US
-        </h2>
-      </div>
-      
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center mb-12 animate-slide-up">
-          <h2 className="text-4xl md:text-6xl font-bold text-primary mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-primary mb-2 font-hind">
             আমাদের সম্পর্কে
           </h2>
+          <p className="text-3xl md:text-5xl font-bold text-outline opacity-40 mb-6">
+            ABOUT US
+          </p>
           <div className="h-1 w-24 gradient-primary mx-auto mb-8 rounded-full"></div>
         </div>
         
