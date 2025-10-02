@@ -1,9 +1,11 @@
+import aboutImage from "@/assets/about-palms.jpg";
+
 const About = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background text */}
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
-        <h2 className="text-[8rem] md:text-[12rem] font-bold text-outline opacity-75 select-none whitespace-nowrap">
+        <h2 className="text-[8rem] md:text-[12rem] font-bold text-outline opacity-40 select-none whitespace-nowrap">
           ABOUT US
         </h2>
       </div>
@@ -41,10 +43,12 @@ const About = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square rounded-2xl gradient-primary p-1 animate-float">
-              <div className="w-full h-full bg-background rounded-2xl flex items-center justify-center text-8xl">
-                🌴
-              </div>
+            <div className="rounded-2xl gradient-primary p-1 animate-float overflow-hidden">
+              <img 
+                src={aboutImage} 
+                alt="Date Palm Trees" 
+                className="w-full h-full object-cover rounded-2xl"
+              />
             </div>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Products = () => {
     <section className="py-20 relative overflow-hidden">
       {/* Background text */}
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden pointer-events-none">
-        <h2 className="text-[8rem] md:text-[12rem] font-bold text-outline opacity-75 select-none whitespace-nowrap">
+        <h2 className="text-[8rem] md:text-[12rem] font-bold text-outline opacity-40 select-none whitespace-nowrap">
           PRODUCTS
         </h2>
       </div>

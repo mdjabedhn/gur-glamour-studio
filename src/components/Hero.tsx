@@ -17,7 +17,7 @@ const Hero = () => {
       
       {/* Background text */}
       <div className="absolute inset-0 flex items-center justify-center z-0 overflow-hidden">
-        <h2 className="text-[12rem] md:text-[20rem] font-bold text-outline opacity-70 select-none">
+        <h2 className="text-[12rem] md:text-[20rem] font-bold text-outline opacity-40 select-none">
           JAGGERY
         </h2>
       </div>
@@ -52,10 +52,6 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Floating elements */}
-      <div className="absolute bottom-10 left-10 text-6xl animate-float">🥥</div>
-      <div className="absolute top-20 right-10 text-6xl animate-float" style={{ animationDelay: '2s' }}>🍯</div>
-      <div className="absolute bottom-32 right-20 text-6xl animate-float" style={{ animationDelay: '4s' }}>🌾</div>
     </section>
   );
 };
